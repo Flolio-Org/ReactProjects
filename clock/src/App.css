@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.clock{
+  border: 8px solid #f84342;
+	border-radius: 50%;
+	width: 220px;
+	height: 220px;
+  position: relative;
+  left: 40%;
+  margin-top: 170px;
+}
+
+.hand{
+  width: 50%;
+  height:6px;
+  background-color: black;
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  transform-origin: 100%;
+  /* transition: all 0.05s; */
+  transition-timing-function: cubic-bezier(0.1,2,7,0.58,1);
+  /* transform:rotate(90deg) */
+}
