@@ -1,4 +1,4 @@
-import React from "react";
+import { useState, React } from "react";
 import styled from "styled-components";
 import { FaSearch, FaShoppingCart } from "react-icons/fa";
 
